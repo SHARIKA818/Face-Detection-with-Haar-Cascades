@@ -57,7 +57,7 @@ iv) Perform face detection with label in real-time video from webcam.
 ### PROGRAM:
 ## NAME:SHARIKA.R
 ## REG NO:212223230204
-
+```
 import cv2
 import matplotlib.pyplot as plt
 %matplotlib inline
@@ -114,7 +114,7 @@ result_group_eyes = detect_eyes(group)
 plt.imshow(result_group_eyes, cmap='gray')
 plt.title("Eyes in Group Image")
 plt.show()
-
+```
 
 ### OUTPUT :
 <img width="581" height="443" alt="image" src="https://github.com/user-attachments/assets/f1b4753d-1bd6-4bed-b186-f96d91229f47" />
